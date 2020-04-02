@@ -1,0 +1,19 @@
+
+/* reset */
+*{
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4rem;
+}
+
+:root{
+  --dark-color: #333;
+  --light-color: #f4f4f4;
+  --slide-1-color: salmon;
+  --slide-2-color: olivedrab;
+  --slide-3-color: slategray;
+  --slide-4-color: rgb(148, 73, 148);
+  --animation-speed: 1s;
+}
+
