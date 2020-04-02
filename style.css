@@ -37,12 +37,14 @@ body{
 
 .slide h1{
   font-size: var(--title-font-size);
-  margin-bottom: 1.5rem;
+  line-height: 4rem;
+  margin: 1rem;
+
 }
 
 .slide p{
   font-size: var(--paragraph-font-size);
-  margin: 0rem 1.5rem;
+  margin: 0rem 1.3rem;
 }
 
 .btn {
@@ -50,7 +52,7 @@ body{
   text-decoration: none;
   color: var(--dark-color);
   background: var(--light-color);
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   border: none;
   margin-top: 1rem;
   font-size: 1.1rem;
