@@ -4,16 +4,84 @@
   font-family:Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.4rem;
+  line-height: 1.4;
 }
 
 :root{
   --dark-color: #333;
   --light-color: #f4f4f4;
-  --slide-1-color: salmon;
-  --slide-2-color: olivedrab;
-  --slide-3-color: slategray;
-  --slide-4-color: rgb(148, 73, 148);
+  --slide-1-color: olivedrab ;
+  --slide-2-color: salmon;
+  --slide-3-color: lightseagreen;
+  --slide-4-color: orange;
   --animation-speed: 1s;
+  --copy-color: #f4f4f4;
+  --title-font-size: 4rem;
+  --paragraph-font-size: 1.3rem;
 }
+
+body{
+  display:flex;
+  flex-direction: column;
+}
+
+.slide{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: var(--copy-color);
+  padding: 0rem 4rem;
+}
+
+.slide h1{
+  font-size: var(--title-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.slide p{
+  font-size: var(--paragraph-font-size);
+  margin: 0rem 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--dark-color);
+  background: var(--light-color);
+  padding: 1rem 2rem;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn-dark{
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+
+.btn-dark:hover{
+  color: var(--dark-color);
+  background: var(--light-color);
+}
+
+
+#slide-1{
+  background: var(--slide-1-color);
+}
+#slide-2{
+  background: var(--slide-2-color);
+}
+#slide-3{
+  background: var(--slide-3-color);
+}
+#slide-4{
+  background: var(--slide-4-color);
+}
+
+
+
 
